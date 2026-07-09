@@ -1,6 +1,7 @@
 body{
     font-family: 'Montserrat Alternates', sans-serif;
     color: var(--secondary-color);
+    
 }
 
 
@@ -15,6 +16,7 @@ body{
 
 
 section{
+    height: 1566px;
     max-width: 400px;
     min-height: 100vh;
     margin: 0 auto;
@@ -43,6 +45,7 @@ h2 {
     flex-direction: column;
     border: 4px solid var(--secondary-color);
     
+    
 }
 
 
@@ -50,7 +53,9 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
+
+
 }
 
 button{
@@ -61,4 +66,9 @@ button{
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+}
+
+img{   
+    margin: 0 auto;
+    padding: 1rem;
 }
